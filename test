@@ -1,0 +1,17 @@
+# Navigate to your project directory
+cd path/to/your/project
+
+# Initialize a local Git repository
+git init
+
+# Add your new file to the repository
+git add local1.txt
+
+# Commit the file to the repository
+git commit -m "Add local1 file"
+
+# Add your remote repository URL
+git remote add origin <your-remote-repository-URL>
+
+# Push the changes to your remote repository
+git push -u origin master
